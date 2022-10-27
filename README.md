@@ -1,6 +1,6 @@
 # almacenador
 #este programa almacena infromacion en la base de datos
-
+```ruby
 
 import time
 import mysql.connector
@@ -40,3 +40,4 @@ class SensorBase(object):
                         print(err)
                 else:
                         cnx.close() 
+                        ```
